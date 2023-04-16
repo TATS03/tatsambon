@@ -1,5 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tatsambon">
+   <uses-permission android:name="android.permission.READ_CONTACTS"/>
+   <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
    <application
         android:label="tatsambon"
         android:name="${applicationName}"
@@ -31,4 +33,6 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
+    
+
 </manifest>
